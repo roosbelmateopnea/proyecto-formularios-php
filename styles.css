@@ -4,6 +4,18 @@ body {
     animation: gradient 15s ease infinite;
 }
 
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+:root {
+    --primary: #398526;
+    --secondary: #267e88;
+}
+
 .card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
